@@ -9,8 +9,13 @@ export const siteConfig = {
     twitter: "https://x.com/faysalkam1",
     github: "https://github.com/fayksal14",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+  aboutMe: `I am an experienced IT technician specialized in systems, networks, and technical support, with professional experience in both educational institutions and international companies. I have strong hands-on skills in hardware assembly and maintenance, system configuration, network management, and technical documentation — including an Erasmus+ internship in Istanbul, Turkey.
+
+I am currently pursuing the Higher Degree in Network Computer Systems Administration (ASIR), where I am deepening my expertise in virtualization, cybersecurity, network services, cloud technologies, and infrastructure management.
+
+I won 1st place in the Cloud Computing category (AWS) at Melilla Skills, standing out in cloud service deployment, automation, and administration. I currently represent Melilla at the SpainSkills national competition.
+
+Proactive, solution-oriented, and a fast learner, I am passionate about continuing to grow in cloud computing, systems administration, and cybersecurity, and I am eager to bring real value to demanding, high-impact tech projects.`,
   skills: ["Linux", "Windows", "C", "HTML", "CSS", "JavaScript", "Lua", "MySQL", "AWS", "CyberSecurity"],
   projects: [
     {
@@ -23,7 +28,7 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "I.E.S Miguel Fernandez",
+      company: "I.E.S Miguel Fernández",
       title: "IT Technician Intern",
       dateRange: "Jan 2025 - Mar 2025",
       bullets: [
@@ -35,7 +40,7 @@ export const siteConfig = {
     },
     {
       company: "Meydan Mimarlık",
-      title: "IT Technician Intern",
+      title: "IT Technician Intern (Erasmus+)",
       dateRange: "Apr 2024 - May 2024",
       bullets: [
         "Created and maintained bilingual (Spanish-Turkish) technical documentation",
@@ -44,7 +49,7 @@ export const siteConfig = {
       ],
     },
     {
-      company: "I.E.S Miguel Fernandez",
+      company: "I.E.S Miguel Fernández",
       title: "IT Technician Intern",
       dateRange: "Mar 2024 - Apr 2024",
       bullets: [
@@ -58,26 +63,29 @@ export const siteConfig = {
   education: [
     {
       school: "I.E.S Leopoldo Queipo",
-      degree: "FP Grado Medio Sistemas Microinformaticos y Redes",
+      degree: "FP Grado Medio Sistemas Microinformáticos y Redes",
       dateRange: "2022 - 2024",
       achievements: [
-        "Erasmus Proyect in Istambul, Turkey",
+        "Erasmus+ internship in Istanbul, Turkey",
       ],
     },
+    {
+      "Completed with outstanding grades",
     {
       school: "I.E.S Leopoldo Queipo",
-      degree: "FP Grado Superior Administración de Sistemas Informaticos en Red",
+      degree: "FP Grado Superior Administración de Sistemas Informáticos en Red (ASIR)",
       dateRange: "2024 - Present",
       achievements: [
-        "First place in Cloud Computing (AWS) at Melilla Skills",
+        "1st Place – Cloud Computing (AWS) – Melilla Skills",
+        "Representative of Melilla at SpainSkills",
       ],
     },
     {
-      school: "Ciudad Atonoma de Melilla",
+      school: "Ciudad Autónoma de Melilla",
       degree: "JavaScript Programming Certificate",
       dateRange: "2025",
       achievements: [
-        "Completed 30+ hours of coursework",
+        "Completed 30+ hours of advanced coursework",
       ],
     },
   ],
