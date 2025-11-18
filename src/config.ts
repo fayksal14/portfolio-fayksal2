@@ -70,8 +70,6 @@ Proactive, solution-oriented, and a fast learner, I am passionate about continui
       ],
     },
     {
-      "Completed with outstanding grades",
-    {
       school: "I.E.S Leopoldo Queipo",
       degree: "FP Grado Superior Administración de Sistemas Informáticos en Red (ASIR)",
       dateRange: "2024 - Present",
