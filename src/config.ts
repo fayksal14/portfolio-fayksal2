@@ -1,94 +1,98 @@
-// src/config.ts
-export const SITE = {
+export const siteConfig = {
   name: "Faysal Kamboui Bagour",
-  title: "SysAdmin & Cloud Specialist",
-  description: "Técnico en Administración de Sistemas, Redes y Ciberseguridad | 1er puesto Melilla Skills AWS | SpainSkills",
-  url: "https://www.fayksal.es",
-  accentColor: "#0ea5e9", // azul cielo moderno (cámbialo si quieres otro)
+  title: "SysAdmin",
+  description: "Portfolio website of Faysal Kamboui Bagour",
+  accentColor: "#1d4ed8",
+  social: {
+    email: "faysalkamboui1@gmail.com",
+    linkedin: "https://www.linkedin.com/in/fayksal/",
+    twitter: "https://x.com/faysalkam1",
+    github: "https://github.com/fayksal14",
+  },
+  aboutMe: `I am an experienced IT technician specialized in systems, networks, and technical support, with professional experience in both educational institutions and international companies. I have strong hands-on skills in hardware assembly and maintenance, system configuration, network management, and technical documentation — including an Erasmus+ internship in Istanbul, Turkey.
+
+I am currently pursuing the Higher Degree in Network Computer Systems Administration (ASIR), where I am deepening my expertise in virtualization, cybersecurity, network services, cloud technologies, and infrastructure management.
+
+I won 1st place in the Cloud Computing category (AWS) at Melilla Skills, standing out in cloud service deployment, automation, and administration. I currently represent Melilla at the SpainSkills national competition.
+
+Proactive, solution-oriented, and a fast learner, I am passionate about continuing to grow in cloud computing, systems administration, and cybersecurity, and I am eager to bring real value to demanding, high-impact tech projects.`,
+  skills: ["Linux", "Windows", "C", "HTML", "CSS", "JavaScript", "Lua", "MySQL", "AWS", "CyberSecurity"],
+  projects: [
+    {
+      name: "Orion Project",
+      description:
+        "Head of Programming for the Orion Project – FiveM Server",
+      link: "https://orionprojectrp.com/",
+      skills: ["HTML", "CSS", "JavaScript", "Lua"]
+    },
+  ],
+  experience: [
+    {
+      company: "I.E.S Miguel Fernández",
+      title: "IT Technician Intern",
+      dateRange: "Jan 2025 - Mar 2025",
+      bullets: [
+        "Resolved hardware and software incidents for users",
+        "Updated and maintained databases",
+        "Repaired computer equipment and peripherals",
+        "Installed and configured software and operating systems",
+      ],
+    },
+    {
+      company: "Meydan Mimarlık",
+      title: "IT Technician Intern (Erasmus+)",
+      dateRange: "Apr 2024 - May 2024",
+      bullets: [
+        "Created and maintained bilingual (Spanish-Turkish) technical documentation",
+        "Repaired workstations and peripheral equipment",
+        "Performed preventive and corrective maintenance of IT services",
+      ],
+    },
+    {
+      company: "I.E.S Miguel Fernández",
+      title: "IT Technician Intern",
+      dateRange: "Mar 2024 - Apr 2024",
+      bullets: [
+        "Resolved hardware and software incidents for users",
+        "Updated and maintained databases",
+        "Repaired computer equipment and peripherals",
+        "Installed and configured software and operating systems",
+      ],
+    },
+  ],
+  education: [
+    {
+      school: "I.E.S Leopoldo Queipo",
+      degree: "FP Grado Medio Sistemas Microinformáticos y Redes",
+      dateRange: "2022 - 2024",
+      achievements: [
+        "Erasmus+ internship in Istanbul, Turkey",
+      ],
+    },
+    {
+      school: "I.E.S Leopoldo Queipo",
+      degree: "FP Grado Superior Administración de Sistemas Informáticos en Red (ASIR)",
+      dateRange: "2024 - Present",
+      achievements: [
+        "1st Place – Cloud Computing (AWS) – Melilla Skills",
+        "Representative of Melilla at SpainSkills",
+      ],
+    },
+    {
+      school: "Ciudad Autónoma de Melilla",
+      degree: "JavaScript Programming Certificate",
+      dateRange: "2025",
+      achievements: [
+        "Completed 30+ hours of advanced coursework",
+      ],
+    },
+    {
+      school: "Open Academy Santander",
+      degree: "Python Programming Certificate",
+      dateRange: "2025",
+      achievements: [
+        "Completed 6+ hours of advanced coursework",
+      ],
+    },
+  ],
 };
-
-export const NAV = [
-  { name: "About", href: "#about" },
-  { name: "Experience", href: "#experience" },
-  { name: "Education", href: "#education" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-];
-
-export const HERO = {
-  title: "Faysal Kamboui",
-  subtitle: "SysAdmin | Cloud & Cybersecurity",
-  description: "Estudiante de ASIR • Ganador Melilla Skills AWS • Erasmus+ Turquía",
-  cta: "Descargar CV",
-  ctaLink: "/cv-faysal-kamboui.pdf", // luego subes tu CV a /public/
-};
-
-export const ABOUT = `
-  Técnico en IT con experiencia internacional (Erasmus+ en Estambul) y premios en computación en la nube.
-  Especializado en administración de sistemas Linux/Windows, redes, AWS y ciberseguridad.
-  Proactivo, resolutivo y apasionado por la infraestructura segura y escalable.
-`;
-
-export const EXPERIENCE = [
-  {
-    company: "I.E.S. Miguel Fernández",
-    role: "Técnico IT",
-    period: "Ene 2025 – Mar 2025",
-    tasks: [
-      "Resolución de incidencias hardware/software",
-      "Mantenimiento de equipos y redes locales",
-      "Actualización de bases de datos educativas"
-    ]
-  },
-  {
-    company: "Meydan Mimarlık – Erasmus+ (Estambul)",
-    role: "Técnico IT Internacional",
-    period: "Abr 2024 – May 2024",
-    tasks: [
-      "Documentación técnica bilingüe",
-      "Mantenimiento de infraestructura IT",
-      "Colaboración en entorno multinacional"
-    ]
-  },
-  {
-    company: "I.E.S. Miguel Fernández",
-    role: "Técnico IT (Prácticas FCT)",
-    period: "Mar 2024 – Abr 2024",
-    tasks: ["Soporte técnico y reparación de equipos"]
-  }
-];
-
-export const EDUCATION = [
-  {
-    school: "I.E.S. Leopoldo Queipo – Melilla",
-    degree: "Grado Superior ASIR (en curso)",
-    period: "2024 – Presente",
-    notes: "1er puesto Cloud Computing (AWS) – Melilla Skills • Representante SpainSkills"
-  },
-  {
-    school: "I.E.S. Leopoldo Queipo – Melilla",
-    degree: "Grado Medio Sistemas Microinformáticos y Redes",
-    period: "2022 – 2024",
-    notes: "Internship Erasmus+ en Turquía"
-  }
-];
-
-export const SKILLS = [
-  "Linux", "AWS", "Windows Server", "Redes TCP/IP", "Bash Scripting",
-  "CyberSecurity", "MySQL", "Docker", "Virtualización", "Python", "JavaScript"
-];
-
-export const PROJECTS = [
-  {
-    name: "Infraestructura AWS Educativa",
-    description: "Diseño y despliegue de VPC, EC2 y S3 para entorno educativo (proyecto premiado)",
-    tech: ["AWS", "Terraform", "Python"],
-    link: "https://github.com/fayksal14/aws-melilla-skills"
-  },
-  {
-    name: "Script de Hardening Linux",
-    description: "Automatización de seguridad CIS Benchmark para servidores Ubuntu",
-    tech: ["Bash", "Ansible"],
-    link: "https://github.com/fayksal14/linux-hardening"
-  }
-];
